@@ -1,4 +1,4 @@
-Benjamin — Senior Full Stack Software Engineer
+# Benjamin — Senior Full Stack Software Engineer
 
 I’m a Senior Full Stack Software Engineer with **16+ years** designing, modernizing, and securing enterprise-scale applications across manufacturing, authentication, and automation domains. I specialize in **robust backend development**, **scalable SaaS platforms**, **factory system integrations**, and **high‑reliability internal tools** that streamline workflows and improve productivity.
 
