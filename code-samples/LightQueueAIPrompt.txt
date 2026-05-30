@@ -1,0 +1,13 @@
+Please make an AutoHotkey V2 script with a user interface.
+The user interface should have a row of buttons at the top: Next, Previous, Insert, Delete.
+The remainder of the window should be filled with a ListView control with the follwoing columns headers:
+Queue, AMSS, A1, A2, A3, A4, SR1, SR2, SG1, SG2, SB1, SB2, SW1, SW2, H1, H2, H3, H4
+The controls for the firt column should be a text input, the seocnd a number input, and the remainder checkboxes.
+When the script loads, it should read values for the table from a CSV file at "C:\temp\queues.csv".
+When a cell value is changed the changes should be saved to the same CSV file.
+The CSV rows should also be stored in a variable called queues.
+By default, the first row in the List View is selceted and a variable called currentQueue is set to 1 indicating the frist row is selected.
+When the user clicks the Next button, the currentQueue variable should be incremented, the selected row in the ListView should move to the next row, and a stub function should be called that displays a MsgBox with the text "Next Queue Clicked.".
+When the user clicks the Previous button, the currentQueue variable should be decremented, the selected row in the ListView should move to the previous row, and a stub function should be called that displays a MsgBox with the text "Previous Queue Clicked.".
+When the user clicks the Insert button. A row should be added to the CSV file, queues variable, and the ListView before the currenlty selected row. The value should match the currently selected row.
+When the user clicks the Delete button. The currently selected row should be removed from the CSV file, queues variable, and the ListView.
